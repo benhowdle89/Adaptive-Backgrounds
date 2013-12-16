@@ -1,0 +1,161 @@
+/*  =====================================
+    CSS RESET
+    /*  ===================================== */
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+    
+    article, hgroup, section, p {
+        display: block;
+    }
+    
+    img { vertical-align: middle; }
+    a   { cursor: pointer; }
+    em { font-style: italic; }
+    b, strong { font-weight: 700; }
+    
+/*  =====================================
+    Default
+    /*  ===================================== */
+
+    * {
+        -webkit-font-smoothing: antialiased;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    html, body {
+        width: 100%;
+        color: #222;
+        font: normal 15px/1.5 Helvetica Neue, Helvetica, Arial;
+        background: #fff;
+    }
+    
+    body {
+        min-height: 530px;
+        position: relative;
+        z-index: 0;
+        padding-bottom: 80px;
+    }
+    
+    .wrap {
+        width: 800px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+    }
+    
+    a, a:visited {
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    h1 {
+        font-size: 28px;
+        float: left;
+    }
+    
+    h3 {
+        margin: 24px 0;
+        font-size: 22px;   
+    }
+
+    ul li {
+        margin: 12px 0 12px 40px;
+    }
+
+    .features {
+        text-align: left;
+        margin-bottom: 36px;
+    }
+
+    hr {
+        height: 1px;
+        background: rgba(0, 0, 0, 0.1);
+        border-top: 1px solid #222;
+        margin: 24px 0;
+        display: block;
+    }
+
+    .button {
+        color: #222;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 8px 12px;
+        margin: 12px 3px 18px 3px;
+        display: inline-block;
+        width: 80px;
+        background: #fff;
+        border: 3px solid #222;
+        border-radius: 3px;
+    }
+
+    .button:hover {
+        background: #f7f7f7; 
+    }
+
+    .centerChildren {
+    	text-align: center;
+    }
+
+    header {
+        text-align: center;
+        line-height: 80px;
+        width: 100%;
+        margin-bottom: 24px; 
+    }
+
+    header span {
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: 7px;
+    }
+
+    p {
+    	margin: 12px 0;
+    }
+
+    footer {
+    	margin-top: 48px;
+    }
+
+    .fRight {
+    	float: right;
+    }
+
+    .fLeft {
+    	float: left;
+    }
+
+    .center {
+        display: block;
+        margin: auto;
+    }
+
+    /* Gists */
+
+    .gist{font-size:13px;line-height:18px;margin-bottom:20px;width:100%}
+    .gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
+    .gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:13px !important; background: none !important;}
+    .gist-meta a{color:#222 !important;text-decoration:none}
+    .gist-meta a:hover{color:#333 !important}
+    .gist .gist-file .gist-data {background: #fff !important;} 
+    .gist .gist-file .gist-data .line-numbers {background: none !important;}
