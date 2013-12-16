@@ -42,9 +42,9 @@
 
     html, body {
         width: 100%;
-        color: #222;
+        color: #fff;
         font: normal 15px/1.5 Helvetica Neue, Helvetica, Arial;
-        background: #fff;
+        background: #1abc9c;
     }
     
     body {
@@ -62,14 +62,14 @@
     }
     
     a, a:visited {
-        color: #333;
+        color: #fff;
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 700;
     }
 
     h1 {
-        font-size: 28px;
-        float: left;
+        font-size: 48px;
+        margin: 24px 0;
     }
     
     h3 {
@@ -89,26 +89,23 @@
     hr {
         height: 1px;
         background: rgba(0, 0, 0, 0.1);
-        border-top: 1px solid #222;
+        border-top: 1px solid #12826c;
         margin: 24px 0;
         display: block;
     }
 
     .button {
-        color: #222;
-        font-weight: bold;
         font-size: 14px;
         padding: 8px 12px;
         margin: 12px 3px 18px 3px;
         display: inline-block;
         width: 80px;
-        background: #fff;
-        border: 3px solid #222;
-        border-radius: 3px;
+        background: #16a085;
+        border: 7px solid #0e6453;
     }
 
     .button:hover {
-        background: #f7f7f7; 
+        background: #12826c; 
     }
 
     .centerChildren {
@@ -124,8 +121,8 @@
 
     header span {
         display: inline-block;
-        float: right;
         position: relative;
+        font-size: 16px;
         top: 7px;
     }
 
@@ -150,11 +147,15 @@
         margin: auto;
     }
 
+    .imgWrap {
+        margin-bottom: 24px;
+    }
+
     /* Gists */
 
     .gist{font-size:13px;line-height:18px;margin-bottom:20px;width:100%}
     .gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
-    .gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:13px !important; background: none !important;}
+    .gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:13px !important; background: #fff !important;}
     .gist-meta a{color:#222 !important;text-decoration:none}
     .gist-meta a:hover{color:#333 !important}
     .gist .gist-file .gist-data {background: #fff !important;} 
