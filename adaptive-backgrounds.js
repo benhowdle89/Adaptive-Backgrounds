@@ -11,12 +11,12 @@
             return new AdaptiveBackgrounds();
         }
 
-        this.images = d.querySelectorAll('[data-adaptive-background]');
+        this.images = getImages();
 
         if(!this.images.length){
             return;
         }
-        
+
         window.addEventListener('load', function() {
             this.init();
             this.process();
@@ -36,6 +36,14 @@
             }, 20);
         }
     };
+
+    AdaptiveBackgrounds.prototype.refresh = function(){
+        this.images = getImages();
+    };
+
+    function getImages(){
+        return d.querySelectorAll('[data-adaptive-background]');
+    }
 
     window.AdaptiveBackgrounds = AdaptiveBackgrounds;
 })(document);
