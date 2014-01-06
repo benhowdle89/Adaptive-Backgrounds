@@ -7,7 +7,7 @@
             return;
         }
 
-        if (this === window) {
+        if (!(this instanceof AdaptiveBackgrounds)) {
             return new AdaptiveBackgrounds();
         }
 
