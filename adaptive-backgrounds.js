@@ -30,10 +30,14 @@
 
     AdaptiveBackgrounds.prototype.process = function(){
         for (var i = this.images.length - 1; i >= 0; i--) {
-            var image = this.images[i];
-            RGBaster.colors(image, function(colors){
-                image.parentNode.style.backgroundColor = colors.dominant;
-            }, 20);
+            (function(image)
+            {
+
+                RGBaster.colors(image, function(colors)
+                {
+                    image.parentNode.style.backgroundColor = colors.dominant;
+                }, 20);
+            })(this.images[i]);
         }
     };
 
