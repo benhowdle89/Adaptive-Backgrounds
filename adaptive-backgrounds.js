@@ -1,13 +1,15 @@
 !(function(d) {
 
     function AdaptiveBackgrounds() {
+        'use strict';
+        
         if (!window.addEventListener) {
             // If we don't have addEventListener, we don't have any of the other
             // fancy stuff. Bail, so nothing breaks (oh, hello IE7/8)
             return;
         }
 
-        if (!(this instanceof AdaptiveBackgrounds)) {
+        if (!this) {
             return new AdaptiveBackgrounds();
         }
 
