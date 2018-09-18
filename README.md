@@ -3,7 +3,7 @@ Adaptive-Backgrounds
 
 #### A JavaScript plugin for extracting the dominant color from images and applying the color to their parent.
 
-<a href="http://benhowdle.im/Adaptive-Backgrounds/">Full docs &amp; demo&rarr;</a>
+<a href="http://benhowdle89.github.io/Adaptive-Backgrounds/">Full docs &amp; demo&rarr;</a>
 
 <ul>
 <li><b>Simply set a data attribute on desired images and the plugin will apply the image's dominant color to it's parent element's background.</b></li>
